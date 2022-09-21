@@ -27,8 +27,8 @@ from linebot.exceptions import LineBotApiError
 #heroku : https://dinnerlinebot.herokuapp.com/
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('K+PeCh2yWmBBpwQphFcYa5XdSzXU8pwn77zK4zsPvyFA6/gLukpoVyGRxn/gwIXLFACkPYWWdVUZHVwz8RgJg2YzcawVljXxx6qLokdcekqOuCNPT3jB9hBk6dK5DWPE0c3J0UqWPHAhKyw/uPhQ5AdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('70963e756556122179c214c35f8571d8')
+line_bot_api = LineBotApi('##api_key##')
+handler = WebhookHandler('##handler##')
 
 @app.route("/")
 def test():
